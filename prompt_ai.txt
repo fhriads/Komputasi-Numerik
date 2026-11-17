@@ -1,0 +1,87 @@
+====================================================================================================
+               DOKUMENTASI KUMPULAN PROMPT ARTIFICIAL INTELLIGENCE (AI)
+                        TUGAS 1 - KOMPUTASI NUMERIK
+====================================================================================================
+Nama Mahasiswa : Fahri Adis Al Hafni
+NIM            : 202511420105
+Program Studi  : Teknik Informatika - Fakultas Teknik
+Universitas    : Universitas Dr. Soetomo (Unitomo) Surabaya
+Mata Kuliah    : Komputasi Numerik
+Profil GitHub  : https://github.com/fhriads
+Repositori     : https://github.com/fhriads/Komputasi-Numerik
+Profil LinkedIn: https://www.linkedin.com/in/fahri-adis-al-hafni-29771a413/
+Platform AI    : Antigravity AI / Google Gemini
+
+====================================================================================================
+BAGIAN 1: PROMPT SISTEM PERSAMAAN LINEAR 3 VARIABEL (SPL 3V) - ELIMINASI GAUSS
+====================================================================================================
+
+[PROMPT 1 - Diskusi Teori Dasar & Algoritma Eliminasi Gauss]
+"Halo, saya mahasiswa Teknik Informatika Unitomo lagi ngerjain Tugas 1 Komputasi Numerik. 
+Saya diminta bikin algoritma buat nyelesaiin Sistem Persamaan Linear Tiga Variabel (SPL 3V) 
+bentuk Ax = b pakai Metode Eliminasi Gauss.
+Bisa tolong bantu jelaskan konsep dasarnya dulu gak? 
+1. Gimana alur matematis mengubah matriks augmented [A|b] jadi matriks segitiga atas?
+2. Kenapa kita harus pakai strategi Partial Pivoting? Apa yang terjadi kalau di baris diagonal ada angka 0?
+3. Rumus substitusi mundurnya gimana untuk dapet nilai x3, x2, dan x1?
+Tolong buatkan juga pseudocode formalnya yang rapi dan contoh soal 3x3 beserta langkah hitungan manualnya."
+
+[PROMPT 2 - Pembuatan Kode Python di Google Colab Cell-by-Cell]
+"Oke konsepnya udah paham. Sekarang tolong buatin kode program Python-nya. 
+Tapi tolong kodenya ditata ke dalam bentuk cell-cell terpisah buat Google Colab (format .ipynb), 
+jangan dijadiin satu blok panjang, biar nanti pas presentasi bisa saya run cell demi cell:
+- Cell 1: buat import library NumPy.
+- Cell 2: inisialisasi matriks koefisien A (3x3) dan vektor b (3x1).
+- Cell 3: gabungin jadi matriks augmented [A|b] dan tampilin tampilannya yang rapi.
+- Cell 4: proses Eliminasi Maju (Forward Elimination) yang udah ada partial pivoting-nya biar gak division by zero.
+- Cell 5: proses Substitusi Mundur (Back Substitution) buat ngitung x3, x2, dan x1.
+- Cell 6: verifikasi hasil solusi kita dengan ngebandingin ke np.linalg.solve sama hitung nilai error residunya ||Ax - b||.
+- Cell 7: buatin fungsi modularnya juga yang bisa nerima sembarang input persamaan 3 variabel dari user."
+
+[PROMPT 3 - Penambahan Penjelasan Detail Tiap Baris Kode]
+"Kodenya udah jalan dan hasilnya sesuai. Sesuai instruksi tugas nomor 7 dari dosen, 
+saya harus ngedit kodenya dengan nambahin penjelasan detail di tiap baris kode atau tiap cell-nya.
+Bisa tolong tambahin komentar penjelasan (inline comments) yang komprehensif di setiap baris kodenya? 
+Jangan cuma nulis komentar singkat kayak '# baris ini buat loop', tapi jelasin alasan logika numeriknya 
+(contohnya: kenapa pakai np.argmax, gimana ngitung faktor pengali m_ik, dan kenapa ada pengecekan nilai mutlak < 1e-12)."
+
+====================================================================================================
+BAGIAN 2: PROMPT PERSAMAAN NON-LINEAR METODE BAGI DUA (BISECTION)
+====================================================================================================
+
+[PROMPT 5 - Pemahaman Teorema Bolzano & Konsep Bisection]
+"Lanjut ke tugas nomor 12 ya. Sekarang bagian Persamaan Non-Linear f(x) = 0 pakai Metode Bisection (Bagi Dua).
+Bisa tolong jelaskan:
+1. Apa itu Teorema Nilai Antara (Teorema Bolzano) dan kenapa syarat awalnya harus f(a) * f(b) < 0?
+2. Gimana mekanisme bagi dua titik tengah c = (a + b) / 2 mempersempit interval pencarian akar?
+3. Gimana cara nentuin kriteria berhentinya (stopping criteria) pakai toleransi galat epsilon?
+Tolong buatin dokumen algoritma lengkapnya, ada pseudocode dan contoh perhitungan manual iterasi 1 sampai 4 
+untuk fungsi kubik f(x) = x^3 - 2x - 5 pada batas [2, 3]."
+
+[PROMPT 6 - Kode Colab Bisection, Tabel Iterasi & Visualisasi Grafik Matplotlib]
+"Sekarang tolong buatin notebook Google Colab (.ipynb) untuk Metode Bisection tadi, tertata dalam cell-cell:
+- Cell buat definisi fungsi f(x) = x^3 - 2x - 5 dan cek syarat Bolzano f(a)*f(b) < 0.
+- Cell algoritma Bisection yang pas di-run bakal nyetak tabel iterasi lengkap (ada nomor iterasi, nilai a, b, c, f(c), dan nilai galatnya).
+- Cell visualisasi grafik kurva fungsi f(x) pakai Matplotlib, ada garis sumbu y=0, batas [a, b], sama titik akar warna merah tebal.
+- Cell grafik kurva konvergensi galat (skala semilogaritmik) biar kelihatan penurunan error-nya tiap langkah.
+- Cell pembanding dengan fungsi bawaan scipy.optimize.bisect buat ngebuktiin solusinya akurat.
+Pastikan tiap baris kodenya juga dikasih komentar penjelasan yang detail ya."
+
+
+====================================================================================================
+BAGIAN 3: PROMPT PERSIAPAN VIDEO PRESENTASI (< 5 MENIT) & KOMPRESI VIDEO MP4
+====================================================================================================
+
+[PROMPT 7 - Poin-Poin Utama & Alur Penjelasan Video SPL 3V]
+"Untuk nomor 10, saya harus bikin video rekaman penjelasan SPL 3V dengan ketentuan:
+- Total durasi maksimal 5 menit.
+- Di awal video wajib menampilkan muka dan suara saya berbicara minimal 15 detik (pakai webcam).
+- Sisanya rekaman layar Google Colab sambil menunjukkan penjalanan kode tiap cell + suara saya tanpa muka.
+Bisa tolong rangkumkan poin-poin penting apa saja yang wajib saya sampaikan secara lisan agar penjelasannya 
+runtut, sistematis, percaya diri, dan pas dengan batasan durasi 5 menit?"
+
+[PROMPT 8 - Poin-Poin Utama Penjelasan Video Metode Bisection]
+"Lalu untuk nomor 12 (Metode Bisection), alur penjelasannya sebaiknya bagaimana? 
+Bagian mana saja yang paling krusial untuk saya sorot di layar (syarat Teorema Bolzano, jalannya tabel iterasi 1 sampai 20, 
+grafik kurva fungsi Matplotlib, atau hasil verifikasi SciPy-nya)?"
+

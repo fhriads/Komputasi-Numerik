@@ -1,0 +1,30 @@
+================================================================================
+           LINK AKUN - KOMPUTASI NUMERIK
+================================================================================
+Nama Mahasiswa : Fahri Adis Al Hafni
+NIM            : 202511420105
+Program Studi  : Teknik Informatika
+Fakultas       : Teknik
+Universitas    : Universitas Dr. Soetomo (Unitomo) Surabaya
+Mata Kuliah    : Komputasi Numerik
+================================================================================
+
+1. Akun GitHub:
+   - Profil Akun     : https://github.com/fhriads
+   - URL Repositori  : https://github.com/fhriads/Komputasi-Numerik
+
+2. Akun Google Colaboratory (Research):
+   - Email Google Colab : fahriadisalhafni15@gmail.com
+   - Direktori Proyek   : https://colab.research.google.com/
+   - Notebook SPL 3V    : https://colab.research.google.com/drive/1tNYyRAPvO1fHMB3GtR6rH5XOB-2ZWIvv?usp=sharing
+   - Notebook Bisection : https://colab.research.google.com/drive/1aIgakq1pwaLbOM9UY2R95FJgqSu4Z57Q?usp=sharing
+
+3. Akun LinkedIn (Portofolio):
+   - URL Profil LinkedIn : https://www.linkedin.com/in/fahri-adis-al-hafni-29771a413/
+   - URL Post Portofolio : https://lnkd.in/p/gcyfW3uw
+
+4. Video Presentasi (Google Drive):
+   - Video SPL 3V       : https://drive.google.com/file/d/1aypEoopemIXBigWtMUE4SG1xVCEvpWnT/view?usp=sharing
+   - Video Bisection    : https://drive.google.com/file/d/1ML6Py-EUzC75qcPcRAUAZQ9X62L_CHTa/view?usp=sharing
+
+================================================================================

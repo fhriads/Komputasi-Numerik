@@ -1,0 +1,24 @@
+================================================================================
+          TAUTAN VIDEO PRESENTASI KOMPUTASI NUMERIK (GOOGLE DRIVE)
+================================================================================
+Nama Mahasiswa : Fahri Adis Al Hafni
+NIM            : 202511420105
+Program Studi  : Teknik Informatika
+Fakultas       : Teknik
+Perguruan Tinggi: Universitas Dr. Soetomo (Unitomo) Surabaya
+Mata Kuliah    : Komputasi Numerik
+================================================================================
+
+1. Video Penjelasan Sistem Persamaan Linear 3 Variabel (SPL 3V)
+   - Metode            : Eliminasi Gauss (Partial Pivoting & Back Substitution)
+   - Tautan Google Drive: https://drive.google.com/file/d/1aypEoopemIXBigWtMUE4SG1xVCEvpWnT/view?usp=sharing
+
+2. Video Penjelasan Persamaan Non-Linear
+   - Metode            : Bisection (Metode Bagi Dua)
+   - Tautan Google Drive: https://drive.google.com/file/d/1ML6Py-EUzC75qcPcRAUAZQ9X62L_CHTa/view?usp=sharing
+
+--------------------------------------------------------------------------------
+Catatan Akses:
+Tautan Google Drive di atas telah diatur agar dapat diakses dan ditonton langsung
+secara streaming di browser oleh siapa saja yang memiliki link.
+================================================================================
